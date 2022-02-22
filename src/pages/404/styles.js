@@ -66,18 +66,3 @@ const PageNotFoundRight = styled.div`
 `;
 
 export { PageNotFoundWrapper, PageNotFoundStyles, PageNotFoundLeft, PageNotFoundRight };
-
-/* 
-<section>
-  <div>
-    <img src={ghostImg} alt="Page not found error" />
-  </div>
-  <div>
-    <h1>Oops!</h1>
-    <p>
-      Looks like the page you are trying to reach does not exist!!!
-      <Link to="/">Take me Home.</Link>
-    </p>
-  </div>
-</section>
-*/

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaBackspace } from "react-icons/fa";
 
-import ghostImg from "../../404.svg";
+import ghostImg from "../../static/images/404.svg";
 import { PageNotFoundWrapper, PageNotFoundStyles, PageNotFoundLeft, PageNotFoundRight } from "./styles";
 
 function PageNotFound(props) {
