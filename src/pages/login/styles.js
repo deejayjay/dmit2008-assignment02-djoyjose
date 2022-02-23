@@ -133,23 +133,4 @@ const FormInput = styled.input`
   transition: all 0.3s ease-in;
 `;
 
-const SignInBtn = styled.button`
-  appearance: none;
-  border: 1px solid #ffdf00;
-  border-radius: 5px;
-  padding: 0.5rem 1.5rem;
-  background-color: #ffdf00;
-  font-size: 1rem;
-  display: block;
-  width: 100%;
-  transition: all 0.3s ease-in;
-  margin-bottom: 1rem;
-
-  &:hover {
-    cursor: pointer;
-    background-color: rgba(255, 223, 0, 0.7);
-    border-color: #5a5a5a;
-  }
-`;
-
-export { LoginStyles, LoginContainer, LoginLeft, LoginRight, LoginForm, InputControl, FormLabel, FormInput, SignInBtn, LogoContainer };
+export { LoginStyles, LoginContainer, LoginLeft, LoginRight, LoginForm, InputControl, FormLabel, FormInput, LogoContainer };

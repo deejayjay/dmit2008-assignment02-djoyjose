@@ -14,10 +14,10 @@ function AppBar(props) {
           <AppBarBrand>
             <Link to="/dashboard">
               <Logo />
-              <BrandName class="header-title__wrapper">
-                <span class="header-title header-title--pink">Toys</span>
-                <span class="header-title header-title--green">Wonder</span>
-                <span class="header-title header-title--blue">Land</span>
+              <BrandName className="header-title__wrapper">
+                <span className="header-title header-title--pink">Toys</span>
+                <span className="header-title header-title--green">Wonder</span>
+                <span className="header-title header-title--blue">Land</span>
               </BrandName>
             </Link>
           </AppBarBrand>

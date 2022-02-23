@@ -1,12 +1,12 @@
 import React from "react";
 import { AppBar } from "../../components/appbar";
-import { SideBar } from "../../components/sidebar";
+import { MainContent } from "../../components/maincontent";
 
 function DashBoardPage(props) {
   return (
     <>
       <AppBar />
-      <SideBar />
+      <MainContent />
     </>
   );
 }

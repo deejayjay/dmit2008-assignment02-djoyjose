@@ -37,12 +37,12 @@ function SideBar(props) {
             Popular Toys
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-search-location" margin="0 0.75rem 0 0" />
-            Store Locations
+            <FaIcon className="fas fa-shopping-cart" margin="0 0.75rem 0 0" />
+            Orders
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-gift" margin="0 0.75rem 0 0" />
-            TWL Rewards
+            <FaIcon className="fas fa-search-location" margin="0 0.75rem 0 0" />
+            Store Locations
           </SideBarItem>
           <SideBarItem>
             <FaIcon className="fas fa-envelope-open-text" margin="0 0.75rem 0 0" />

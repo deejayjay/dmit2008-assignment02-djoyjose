@@ -54,7 +54,7 @@ const AppBarIcons = styled.ul`
   align-items: center;
 
   li {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
   }
 
   li:last-of-type {
@@ -64,6 +64,13 @@ const AppBarIcons = styled.ul`
   a {
     color: #5a5a5a;
     font-weight: 700;
+    border-bottom: 2px solid #ffffff;
+
+    &:hover {
+      color: #5a5a5a;
+      text-align: none;
+      border-bottom-color: #ecad0d;
+    }
   }
 `;
 
