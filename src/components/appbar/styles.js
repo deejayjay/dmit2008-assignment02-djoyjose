@@ -68,7 +68,7 @@ const AppBarIcons = styled.ul`
 
     &:hover {
       color: #5a5a5a;
-      text-align: none;
+      text-decoration: none;
       border-bottom-color: #ecad0d;
     }
   }
