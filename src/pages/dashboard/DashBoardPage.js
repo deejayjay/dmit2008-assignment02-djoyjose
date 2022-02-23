@@ -1,9 +1,10 @@
 import React from "react";
+import { AppBar } from "../../components/appbar";
 
 function DashBoardPage(props) {
   return (
     <>
-      <h1>Dashboard Page</h1>
+      <AppBar />
     </>
   );
 }
