@@ -14,14 +14,17 @@ const AppBarWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  a {
-    text-decoration: none;
-    display: flex;
-  }
 `;
 
-const AppBarBrand = styled.div``;
+const AppBarBrand = styled.div`
+  a {
+    display: flex;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+`;
 
 const BrandName = styled.h1`
   font-size: 0;
