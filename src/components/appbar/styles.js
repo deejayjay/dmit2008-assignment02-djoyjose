@@ -11,18 +11,26 @@ const AppBarStyles = styled.header`
 `;
 
 const AppBarWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @media only screen and (min-width: 640px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 `;
 
 const AppBarBrand = styled.div`
+  margin-bottom: 0.5rem;
+
   a {
     display: flex;
 
     &:hover {
       text-decoration: none;
     }
+  }
+
+  @media only screen and (min-width: 640px) {
+    margin-bottom: 0;
   }
 `;
 
