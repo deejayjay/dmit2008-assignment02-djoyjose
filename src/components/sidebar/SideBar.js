@@ -6,7 +6,7 @@ import { SideBarStyles, SideBarItems, SideBarItem } from "./styles";
 function SideBar(props) {
   return (
     <>
-      <SideBarStyles>
+      <SideBarStyles className="sidebar-wrapper">
         <SideBarItems>
           <SideBarItem>
             <FaIcon className="fas fa-list" margin="0 0.75rem 0 0" />

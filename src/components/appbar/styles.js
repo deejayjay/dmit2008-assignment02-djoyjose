@@ -11,7 +11,7 @@ const AppBarStyles = styled.header`
 `;
 
 const AppBarWrapper = styled.div`
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ const AppBarBrand = styled.div`
     }
   }
 
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 768px) {
     margin-bottom: 0;
   }
 `;
@@ -66,6 +66,18 @@ const AppBarIcons = styled.ul`
 
   li {
     margin-right: 1.5rem;
+
+    &.toggle-menu {
+      margin-right: auto;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
   }
 
   li:last-of-type {

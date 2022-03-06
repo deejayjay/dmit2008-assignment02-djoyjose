@@ -7,6 +7,12 @@ import { Logo } from "../logo";
 import { AppBarStyles, AppBarWrapper, AppBarBrand, BrandName, AppBarIconGroup, AppBarIcons } from "./styles";
 
 function AppBar(props) {
+  function onToggleMenuClick() {
+    const currentWidth = document.querySelector(".sidebar-wrapper").style.width;
+    if (currentWidth === "0px") document.querySelector(".sidebar-wrapper").style.width = "100%";
+    else document.querySelector(".sidebar-wrapper").style.width = "0";
+  }
+
   return (
     <>
       <AppBarStyles>
@@ -24,6 +30,9 @@ function AppBar(props) {
 
           <AppBarIconGroup>
             <AppBarIcons>
+              <li className="toggle-menu">
+                <FaIcon className="fas fa-bars" size="1.25rem" onClick={onToggleMenuClick} />
+              </li>
               <li>
                 <Link to="/">Sign Out</Link>
               </li>
