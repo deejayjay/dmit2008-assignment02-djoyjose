@@ -12,22 +12,30 @@ const LoginStyles = styled.div`
 
 const LoginContainer = styled.section`
   width: 100%;
-  min-width: 40rem;
-  max-width: 50rem;
   border-radius: 5px;
   background-color: #fefefe;
-  display: flex;
   box-shadow: 0 0 5px 2px #ababab;
+
+  @media only screen and (min-width: 768px) {
+    min-width: 40rem;
+    max-width: 50rem;
+    display: flex;
+  }
 `;
 
 const LoginLeft = styled.div`
-  width: 50%;
-  padding: 3rem 1rem 17rem;
-  background: url(${(props) => props.bgImg}) no-repeat 0% 0% / cover;
+  padding: 1rem 1rem 10rem;
+  background: url(${(props) => props.bgImg}) no-repeat 0% 60% / cover;
   color: #fefefe;
   border-radius: 5px 0 0 5px;
   display: flex;
   justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+    padding: 3rem 1rem 17rem;
+    background: url(${(props) => props.bgImg}) no-repeat 0% 0% / cover;
+  }
 
   section {
     background: rgba(0, 0, 0, 0.5);
@@ -78,8 +86,11 @@ const LoginLeft = styled.div`
 `;
 
 const LoginRight = styled.div`
-  width: 50%;
   color: #5a5a5a;
+
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+  }
 `;
 
 const LoginForm = styled.form`
