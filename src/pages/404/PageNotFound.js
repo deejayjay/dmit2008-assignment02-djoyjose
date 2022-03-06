@@ -15,13 +15,15 @@ function PageNotFound(props) {
             <img src={ghostImg} alt="Page not found error" />
           </PageNotFoundLeft>
           <PageNotFoundRight>
-            <h1>Oops!</h1>
-            <p>Looks like the page you are trying to reach does not exist!!!</p>
-            <p>
-              <Link to="/">
-                <FaBackspace size="2rem" /> Take me Home.
-              </Link>
-            </p>
+            <div>
+              <h1>Page Not Found</h1>
+              <p>Trust me, you don't want to be here...</p>
+              <p>
+                <Link to="/">
+                  <FaBackspace size="2rem" /> Take me Home.
+                </Link>
+              </p>
+            </div>
           </PageNotFoundRight>
         </PageNotFoundStyles>
       </PageNotFoundWrapper>
