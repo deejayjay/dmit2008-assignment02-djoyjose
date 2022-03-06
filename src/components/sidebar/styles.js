@@ -26,7 +26,24 @@ const SideBarStyles = styled.div`
 const SideBarItems = styled.ul``;
 
 const SideBarItem = styled.li`
-  padding: 0.75rem 3rem 0.75rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #ffffff;
+  white-space: nowrap;
+
+  &:hover {
+    border-bottom: 1px solid #ecad0d;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem 3rem 0.75rem 1rem;
+    color: #5a5a5a;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 `;
 
 export { SideBarStyles, SideBarItems, SideBarItem };

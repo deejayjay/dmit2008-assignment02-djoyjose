@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FaIcon } from "../../ui/FaIcon";
 
@@ -9,52 +10,76 @@ function SideBar(props) {
       <SideBarStyles className="sidebar-wrapper">
         <SideBarItems>
           <SideBarItem>
-            <FaIcon className="fas fa-list" margin="0 0.75rem 0 0" />
-            Categories
+            <a href="#">
+              <FaIcon className="fas fa-list" margin="0 0.75rem 0 0" />
+              Categories
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-cube" margin="0 0.75rem 0 0" />
-            Brands
+            <a href="#">
+              <FaIcon className="fas fa-cube" margin="0 0.75rem 0 0" />
+              Brands
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-shipping-fast" margin="0 0.75rem 0 0" />
-            Coming Soon
+            <a href="#">
+              <FaIcon className="fas fa-shipping-fast" margin="0 0.75rem 0 0" />
+              Coming Soon
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-hand-holding-usd" margin="0 0.75rem 0 0" />
-            Deals
+            <a href="#">
+              <FaIcon className="fas fa-hand-holding-usd" margin="0 0.75rem 0 0" />
+              Deals
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-coins" margin="0 0.75rem 0 0" />
-            Clearance
+            <a href="#">
+              <FaIcon className="fas fa-coins" margin="0 0.75rem 0 0" />
+              Clearance
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-undo" margin="0 0.75rem 0 0" />
-            Rollback
+            <a href="#">
+              <FaIcon className="fas fa-undo" margin="0 0.75rem 0 0" />
+              Rollback
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fab fa-playstation" margin="0 0.75rem 0 0" />
-            Popular Toys
+            <a href="#">
+              <FaIcon className="fab fa-playstation" margin="0 0.75rem 0 0" />
+              Popular Toys
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-shopping-cart" margin="0 0.75rem 0 0" />
-            Orders
+            <a href="#">
+              <FaIcon className="fas fa-shopping-cart" margin="0 0.75rem 0 0" />
+              Orders
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-search-location" margin="0 0.75rem 0 0" />
-            Store Locations
+            <a href="#">
+              <FaIcon className="fas fa-search-location" margin="0 0.75rem 0 0" />
+              Store Locations
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-envelope-open-text" margin="0 0.75rem 0 0" />
-            Subscribe to Emails
+            <a href="#">
+              <FaIcon className="fas fa-envelope-open-text" margin="0 0.75rem 0 0" />
+              Subscribe to Emails
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-address-card" margin="0 0.75rem 0 0" />
-            Contact Us
+            <a href="#">
+              <FaIcon className="fas fa-address-card" margin="0 0.75rem 0 0" />
+              Contact Us
+            </a>
           </SideBarItem>
           <SideBarItem>
-            <FaIcon className="fas fa-info-circle" margin="0 0.75rem 0 0" />
-            About Us
+            <a href="#">
+              <FaIcon className="fas fa-info-circle" margin="0 0.75rem 0 0" />
+              About Us
+            </a>
           </SideBarItem>
         </SideBarItems>
       </SideBarStyles>

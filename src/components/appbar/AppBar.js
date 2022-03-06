@@ -9,7 +9,8 @@ import { AppBarStyles, AppBarWrapper, AppBarBrand, BrandName, AppBarIconGroup, A
 function AppBar(props) {
   function onToggleMenuClick() {
     const currentWidth = document.querySelector(".sidebar-wrapper").style.width;
-    if (currentWidth === "0px") document.querySelector(".sidebar-wrapper").style.width = "100%";
+    console.log(currentWidth);
+    if (currentWidth === "0px" || currentWidth === "") document.querySelector(".sidebar-wrapper").style.width = "100%";
     else document.querySelector(".sidebar-wrapper").style.width = "0";
   }
 
