@@ -39,23 +39,27 @@ const SideBarItem = styled.li`
   border-bottom: 1px solid #ffffff;
   white-space: nowrap;
 
+  a i {
+    transition: transform 0.2s ease-in-out;
+  }
+
   &:hover {
     border-bottom: 1px solid #ecad0d;
+
+    a {
+      color: #5a5a5a;
+      i {
+        transform: scale(1.2);
+      }
+    }
   }
 
   &:first-of-type {
     margin-bottom: 1rem;
-    a i {
-      transition: transform 0.2s ease-in-out;
-    }
 
     &:hover {
       border-bottom: 1px solid #ffffff;
       background-color: #ecad0d;
-
-      a i {
-        transform: scale(1.2);
-      }
     }
   }
 
