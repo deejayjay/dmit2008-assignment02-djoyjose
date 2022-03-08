@@ -35,9 +35,6 @@ function AppBar(props) {
                 <FaIcon className="fas fa-bars" size="1.25rem" onClick={onToggleMenuClick} />
               </li>
               <li>
-                <Link to="/">Sign Out</Link>
-              </li>
-              <li>
                 <FaIcon className="fas fa-envelope" size="1.25rem" />
               </li>
               <li>

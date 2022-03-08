@@ -83,18 +83,6 @@ const AppBarIcons = styled.ul`
   li:last-of-type {
     margin-right: 0;
   }
-
-  a {
-    color: #5a5a5a;
-    font-weight: 700;
-    border-bottom: 2px solid #ffffff;
-
-    &:hover {
-      color: #5a5a5a;
-      text-decoration: none;
-      border-bottom-color: #ecad0d;
-    }
-  }
 `;
 
 export { AppBarStyles, AppBarWrapper, AppBarBrand, BrandName, AppBarIconGroup, AppBarIcons };

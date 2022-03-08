@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaIcon } from "../../ui/FaIcon";
 
 import { SideBarStyles, SideBarItems, SideBarItem } from "./styles";
@@ -9,6 +10,12 @@ function SideBar(props) {
     <>
       <SideBarStyles className="sidebar-wrapper">
         <SideBarItems>
+          <SideBarItem>
+            <Link className="btn-signout" to="/">
+              <FaIcon className="fas fa-sign-out-alt" margin="0 0.75rem 0 0" />
+              Sign Out
+            </Link>
+          </SideBarItem>
           <SideBarItem>
             <a href="#">
               <FaIcon className="fas fa-list" margin="0 0.75rem 0 0" />

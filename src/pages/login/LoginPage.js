@@ -38,11 +38,11 @@ function LoginPage(props) {
               <h2>Member Sign In</h2>
               <InputControl>
                 <FormLabel htmlFor="userEmail">Email</FormLabel>
-                <FormInput type="email" id="userEmail" name="userEmail" required />
+                <FormInput type="email" id="userEmail" name="userEmail" />
               </InputControl>
               <InputControl>
                 <FormLabel htmlFor="userPassword">Password</FormLabel>
-                <FormInput type="password" id="userPassword" name="userPassword" required />
+                <FormInput type="password" id="userPassword" name="userPassword" />
               </InputControl>
               <Button text="Sign In" display="block" width="100%" margin="0 0 1rem" />
               <Link to="/" className="link-forgot">
