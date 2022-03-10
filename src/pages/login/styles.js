@@ -138,8 +138,7 @@ const FormInput = styled.input`
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 5px;
-  border: none;
-  box-shadow: 0 0 2px 0 #666;
+  border: 1px solid #bcbcbc;
   color: #5a5a5a;
   transition: all 0.3s ease-in;
 `;
