@@ -31,7 +31,7 @@ function LoginPage(props) {
             </section>
           </LoginLeft>
           <LoginRight>
-            <LoginForm onSubmit={onSignInHandler}>
+            <LoginForm onSubmit={onSignInHandler} autoComplete="off">
               <LogoContainer>
                 <Logo logoWidth="3rem" />
               </LogoContainer>
